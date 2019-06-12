@@ -23,7 +23,11 @@ def calculate_average_grade_from_CSV(my_csv_filepath):
 
     pass
 
+#tests all the code below
 if __name__ == "__main__":
+    print("PARSING SOME EXAMPLE GRADEBOOK FILES HERE")
+
+gradebook_filepath = os.path.join(os.path.dirname(__file__), ",,")
 
 
 
